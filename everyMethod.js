@@ -25,6 +25,8 @@ const myArray = [
 const everyOutput = myArray.every((data)=>{
     return data.price >= 14000; 
 });
+// This Is Every Method In JS In Single Line Statement
+const everyOutput = myArray.every((data)=> data.price >= 14000);
 // console.log(everyOutput);
 
 // This Is find Method In JS
